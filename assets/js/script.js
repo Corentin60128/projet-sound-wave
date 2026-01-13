@@ -1,5 +1,5 @@
 const burger = document.querySelector('.burger');
-  const navMenu = document.querySelector('nav ul');
+const navMenu = document.querySelector('nav ul');
 
   // Créer les 3 spans du burger
   for (let i = 0; i < 3; i++) {
