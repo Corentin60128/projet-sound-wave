@@ -62,9 +62,12 @@ nav a:hover {
   flex-direction: column;
   cursor: pointer;
   gap: 5px;
+  width: 30px;
+  height: 25px;
 }
 
 .burger span {
+  display: block;
   width: 25px;
   height: 3px;
   background: linear-gradient(135deg, #8b5cf6, #6366f1);
