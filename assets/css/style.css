@@ -338,10 +338,10 @@ footer {
 
   nav ul {
     position: fixed;
-    top: 80px;
+    top: 70px;
     right: -100%;
     width: 100%;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 70px);
     background: rgba(10, 10, 10, 0.98);
     backdrop-filter: blur(10px);
     flex-direction: column;
@@ -355,6 +355,7 @@ footer {
 
   nav ul.active {
     right: 0;
+
   }
 
   nav ul li {
